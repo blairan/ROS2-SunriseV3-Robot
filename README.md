@@ -1,12 +1,12 @@
 # ROS2-SunriseV3-Robot
 
-### 1.Add publisher & subsrciber
+### 1.Add publisher & subsrciber (測試節點發布接收)
 - pub_a
-- pub_b
+- sub_b
 - MecarrunV3 test
 
 ------
-### 2.Publisher cmd_vel node and Subscriber to driver
+### 2.Publisher cmd_vel node and Subscriber to driver (鍵盤控制小車)
 *使用MecarrunV3時，要注意，當py和主程式放一起時,因為裡面有用到序
 *列埠，在.bashrc裡要加入權限sudo chmod a+rw /dev/ttyACM0
 - $ ros2 run py_pkg cmd_vel_pwm (sunrise V3)
@@ -45,7 +45,7 @@
     - 如遇到有關找不到攝像頭的報錯，請至launch文件修改
 
 ------
-### Hend_Detection Follow Robot
+### Hend_Detection Follow Robot (手勢控制小車)
 - (PC)
     - install turtlebot3_pkg and gazebo
         - $ sudo apt-get install ros-foxy-gazebo-*
