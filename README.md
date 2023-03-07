@@ -52,10 +52,10 @@
         - $ sudo apt install ros-foxy-turtlebot3
         - $ sudo apt install ros-foxy-turtlebot3-simulations
 
-    - $ ros2 launch turtlebot3_gazebo empty_world.launch.py
     - $ source /opt/ros/foxy/setup.bash
     - $ export TURTLEBOT3_MODEL=burger
     - $ ros2 launch turtlebot3_gazebo empty_world.launch.py
+    ##### 如果gazebo已安裝過,可以直接執行launch
 
 - (Sunrise x3)
     ##### 使用USB摄像头发布图片
