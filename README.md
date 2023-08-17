@@ -96,6 +96,7 @@
 
     ###### 启动launch文件
     - $ ros2 launch body_tracking hobot_body_tracking_without_gesture.launch.py
+    - $ ros2 run py_pkg cmd_vel_pwm
 
 - (PC) 開啓gazebo的仿真
     - $ ros2 launch turtlebot3_gazebo empty_world.launch.py
